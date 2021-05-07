@@ -9,11 +9,15 @@
 
 1.通过命令的方式下载（建议采用）：
 
+```R
 devtools::install_github("用户名/仓库名",build_vignettes = TRUE)
+```
 
 2.从GitHub上下载ZIP到本地，然后运行代码安装包：
 
+```R
 devtools::install_local("压缩文件的路径")
+```
 
 #### 包简介
 
